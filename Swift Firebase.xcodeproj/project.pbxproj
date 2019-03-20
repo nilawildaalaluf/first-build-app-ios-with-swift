@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		54FE4EC2223F846D0054CC0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE4EC1223F846D0054CC0D /* AppDelegate.swift */; };
-		54FE4EC4223F846D0054CC0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE4EC3223F846D0054CC0D /* ViewController.swift */; };
 		54FE4EC7223F846D0054CC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FE4EC5223F846D0054CC0D /* Main.storyboard */; };
 		54FE4EC9223F846F0054CC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FE4EC8223F846F0054CC0D /* Assets.xcassets */; };
 		54FE4ECC223F846F0054CC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FE4ECA223F846F0054CC0D /* LaunchScreen.storyboard */; };
 		54FE4ED7223F846F0054CC0D /* Swift_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE4ED6223F846F0054CC0D /* Swift_FirebaseTests.swift */; };
 		54FE4EE2223F846F0054CC0D /* Swift_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE4EE1223F846F0054CC0D /* Swift_FirebaseUITests.swift */; };
+		54FE4EF2223F8B700054CC0D /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE4EF1223F8B700054CC0D /* ListsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		54FE4EBE223F846D0054CC0D /* Swift Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FE4EC1223F846D0054CC0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54FE4EC3223F846D0054CC0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54FE4EC6223F846D0054CC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54FE4EC8223F846F0054CC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54FE4ECB223F846F0054CC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		54FE4EDD223F846F0054CC0D /* Swift FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FE4EE1223F846F0054CC0D /* Swift_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FirebaseUITests.swift; sourceTree = "<group>"; };
 		54FE4EE3223F846F0054CC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FE4EF1223F8B700054CC0D /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		54FE4EC0223F846D0054CC0D /* Swift Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				54FE4EF1223F8B700054CC0D /* ListsViewController.swift */,
 				54FE4EC1223F846D0054CC0D /* AppDelegate.swift */,
-				54FE4EC3223F846D0054CC0D /* ViewController.swift */,
 				54FE4EC5223F846D0054CC0D /* Main.storyboard */,
 				54FE4EC8223F846F0054CC0D /* Assets.xcassets */,
 				54FE4ECA223F846F0054CC0D /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FE4EC4223F846D0054CC0D /* ViewController.swift in Sources */,
+				54FE4EF2223F8B700054CC0D /* ListsViewController.swift in Sources */,
 				54FE4EC2223F846D0054CC0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
